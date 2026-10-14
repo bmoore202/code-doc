@@ -6,34 +6,7 @@
    ═══════════════════════════════════════════════════════════════ */
 
 const NAV_DATA = [
-  /* ---------------------------------------------------------------------
-     PORTFOLIO
-     --------------------------------------------------------------------- */
-  {
-    id: 'portfolio',
-    label: 'Portfolio',
-    children: [
-      { id: 'portfolio-overview', label: 'Overview', page: 'pages/portfolio/overview.html' },
-      { id: 'portfolio-about', label: 'About Me', page: 'pages/portfolio/about.html' },
-      { id: 'portfolio-how-i-help', label: 'How I Can Help You', page: 'pages/portfolio/how-i-can-help.html' },
-      {
-        id: 'portfolio-projects',
-        label: 'Projects',
-        page: 'pages/portfolio/projects.html',
-        children: [
-          { id: 'portfolio-project-devdocs', label: 'DevDocs Platform', page: 'pages/portfolio/projects/devdocs-app.html' },
-          { id: 'portfolio-project-php-cms', label: 'PHP CMS', page: 'pages/portfolio/projects/php-cms.html' },
-          { id: 'portfolio-project-oss-framework', label: 'Open Source PHP Framework', page: 'pages/portfolio/projects/open-source-framework.html' },
-          { id: 'portfolio-project-parent-tags', label: 'Parent Attributes / Tags', page: 'pages/portfolio/projects/parent-attributes-tags.html' },
-          { id: 'portfolio-project-afb-theme', label: 'AFB Theme (Snow Owl)', page: 'pages/portfolio/projects/afb-theme.html' },
-          { id: 'portfolio-project-snow-owl-colors', label: 'Snow Owl Custom Colors', page: 'pages/portfolio/projects/snow-owl-custom-colors.html' },
-          { id: 'portfolio-project-adilas-ecommerce', label: 'Adilas E-commerce', page: 'pages/portfolio/projects/adilas-ecommerce.html' },
-          { id: 'portfolio-project-adilas-email', label: 'Adilas E-mail Engine', page: 'pages/portfolio/projects/adilas-email.html' },
-          { id: 'portfolio-project-afb-adilas-site', label: 'Unified AFB/Adilas Website', page: 'pages/portfolio/projects/afb-adilas-website.html' },
-        ]
-      }
-    ]
-  },
+  
   /* ---------------------------------------------------------------------
      REFERENCE INFO - keep this as a reference, comment it out to hide it
      --------------------------------------------------------------------- */
@@ -152,30 +125,6 @@ const NAV_DATA = [
   /* -------------------------------------------------------------------
      REFERENCE INFO - end
      ------------------------------------------------------------------- */
-  /* ---------------------------------------------------------------------
-     My book - will move out later
-     --------------------------------------------------------------------- */
-  {
-    id: 'heaven-is-worth-it',
-    label: 'Heaven is Worth It',
-    children: [
-      { id: 'preference',  label: 'Preference',  page: 'pages/preference.html' },
-      { id: 'god-of-heaven',  label: 'God of Heaven',  page: 'pages/god-of-heaven.html' },
-    ]
-  },
-  {
-    id: 'raw',
-    label: 'Gospel Quotes',
-    children: [
-      { id: 'quote-purpose',  label: 'Purpose of These Pages',  page: 'pages/quote-purpose.html' },
-      { id: 'heaven-quotes',  label: 'Heaven Quotes',  page: 'pages/heaven-quotes.html' },
-      { id: 'trial-quotes',  label: 'Trial Quotes',  page: 'pages/trial-quotes.html' },
-      { id: 'miracles-quotes',  label: 'God\'s Miracles',  page: 'pages/miracles-quotes.html' },
-    ]
-  },
-  /* ---------------------------------------------------------------------
-     My book - end
-     --------------------------------------------------------------------- */
 ];
 
 /* ═══════════════════════════════════════════════════════════════
